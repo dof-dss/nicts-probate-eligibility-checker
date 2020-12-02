@@ -1,0 +1,18 @@
+$govuk-assets-path: '../';
+@import "../../node_modules/govuk-frontend/govuk/all";
+@import "../../node_modules/nidirect-frontend/nidirect-all";
+.govuk-error-summary {
+    display: none;
+}
+
+.cookie-banner {
+    background-color: #f3f2f1;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    margin-bottom: 0 !important;
+    &__buttons {
+        &-accept {
+            display: inline-block;
+        }
+    }
+}

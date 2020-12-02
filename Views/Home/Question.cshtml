@@ -1,0 +1,26 @@
+@model eligibility_checker.Models.PageViewModel
+
+<form method="post" asp-controller="Home" asp-action="Index"
+      asp-route-page="@Model.Page">
+  <partial name="../Components/_errorSummary.cshtml" />            
+  <div class="govuk-form-group">
+    <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+      <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+        <h1 class="govuk-fieldset__heading">@Model.Header</h1>
+      </legend>
+      <div id="changed-name-hint" class="govuk-hint">@Html.Raw(Model.Hint)</div>
+        <div class="govuk-radios govuk-radios--inline">
+          <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="answer" name="answer" type="radio" value="true">
+          <label class="govuk-label govuk-radios__label" for="answer">Yes</label>
+        </div>
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="answer-2" name="answer" type="radio" value="false">
+          <label class="govuk-label govuk-radios__label" for="answer-2">No</label>
+        </div>
+      </div>
+
+    </fieldset>
+  </div>
+  <input type="submit" value="Continue" name="save" class="govuk-button" data-module="govuk-button" />
+</form>

@@ -1,0 +1,7 @@
+---
+applications:
+- name: eligibility-checker-sandbox
+  buildpacks:
+  - dotnet_core_buildpack
+  memory: 256M
+  

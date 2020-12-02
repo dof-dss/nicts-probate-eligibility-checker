@@ -1,0 +1,151 @@
+[{
+        "Page": "start",
+        "Template": "Question",
+        "Header": "Are you over 18 years old?",
+        "Hint": "You must be 18 years old to apply for probate in Northern Ireland.",
+        "Validation": "Answer 'yes' if you are over 18 years old",
+        "OnYes": "death-certificate",
+        "OnNo": "not-18"
+    },
+    {
+        "Page": "death-certificate",
+        "Template": "Question",
+        "Header": "Do you have a death certificate?",
+        "Hint": "You need the original death certificate or an interim death certificate (opens in a new window) from the coroner.",
+        "Validation": "Answer 'yes' if you are over 18 years old",
+        "OnYes": "domicile-ni",
+        "OnNo": "no-death-certificate"
+    },
+    {
+        "Page": "no-death-certificate",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for probate"
+    },
+    {
+        "Page": "not-18",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You need to be 18 to apply for Probate"
+    },
+    {
+        "Page": "domicile-ni",
+        "Template": "Question",
+        "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
+        "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about domicile (opens in a new window)",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "iht",
+        "OnNo": "not-ni"
+    },
+    {
+        "Page": "not-ni",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can't use the online service because the person who died didn't live in Northern Ireland or intend to return here.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
+    },
+    {
+        "Page": "iht",
+        "Template": "Question",
+        "Header": "Has an Inheritance Tax (IHT) form been filled in?",
+        "Hint": "This could be an Inheritance Tax estate report or a paper Inheritance Tax form",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "has-will",
+        "OnNo": "no-iht"
+    },
+    {
+        "Page": "no-iht",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You need to complete an inheritance tax form (opens in a new window) before applying for probate"
+    },
+    {
+        "Page": "has-will",
+        "Template": "Question",
+        "Header": "Did the person who died leave a will?",
+        "Hint": "",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "original-will",
+        "OnNo": "relationship"
+    },
+    {
+        "Page": "relationship",
+        "Template": "Question",
+        "Header": "Are you the spouse, civil partner or child of the person who died?",
+        "Hint": "You must be the husband, wife, civil partner or a child over 18 to continue with your application online.</br></br>This does not include long-term partners who lived together but did not marry or enter into a civil partnership.</br></br>You may need to provide your certificate of marriage or civil partnership.",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "joint-application",
+        "OnNo": "not-related"
+    },
+    {
+        "Page": "not-related",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
+    },
+    {
+        "Page": "original-will",
+        "Template": "Question",
+        "Header": "Do you have the original will?",
+        "Hint": "You need the original, not a photocopy",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "executor",
+        "OnNo": "no-will"
+    },
+    {
+        "Page": "executor",
+        "Template": "Question",
+        "Header": "Are you named as an executor on the will?",
+        "Hint": "An executor is repsonsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "executor-decisions",
+        "OnNo": "not-executor"
+    },
+    {
+        "Page": "no-will",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can't use the online service if you don't have the original will of the person who died.</br></br>You will need to apply by post instead.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
+    },
+    {
+        "Page": "not-executor",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)the "
+    },
+    {
+        "Page": "joint-application",
+        "Template": "Question",
+        "Header": "Are you making a joint application?",
+        "Hint": "You may want to apply with someone in your family, for example your sister or brother.",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "no-joint-application",
+        "OnNo": "create-account"
+    },
+    {
+        "Page": "executor-decisions",
+        "Template": "Question",
+        "Header": "Are all the executors able to make their own decisions?",
+        "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about mental capacity (opens in a new window) on GOV.UK",
+        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "OnYes": "create-account",
+        "OnNo": "unable"
+    },
+    {
+        "Page": "unable",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can’t use the online service as not all executors are able to make their own decisions.</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window).</br></br>You will also need to complete a ‘mental capacity form’ (opens in a new window) for the executor who is unable to make their own decisions."
+    },
+    {
+        "Page": "create-account",
+        "Template": "Apply",
+        "Header": "Create an account",
+        "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because we can't discuss details with anyone but the person making the application."
+    },
+    {
+        "Page": "no-joint-application",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service",
+        "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
+    }
+]
