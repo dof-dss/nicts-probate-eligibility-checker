@@ -12,7 +12,7 @@
         "Template": "Question",
         "Header": "Do you have a death certificate?",
         "Hint": "You need the original death certificate or an interim death certificate (opens in a new window) from the coroner.",
-        "Validation": "Answer 'yes' if you are over 18 years old",
+        "Validation": "Answer 'yes' you have a death certificate.",
         "OnYes": "domicile-ni",
         "OnNo": "no-death-certificate"
     },
@@ -48,7 +48,7 @@
         "Template": "Question",
         "Header": "Has an Inheritance Tax (IHT) form been filled in?",
         "Hint": "This could be an Inheritance Tax estate report or a paper Inheritance Tax form",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if you have completed the Inheritance Tax Forms.",
         "OnYes": "has-will",
         "OnNo": "no-iht"
     },
@@ -63,7 +63,7 @@
         "Template": "Question",
         "Header": "Did the person who died leave a will?",
         "Hint": "",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if the person who died left a will",
         "OnYes": "original-will",
         "OnNo": "relationship"
     },
@@ -72,7 +72,7 @@
         "Template": "Question",
         "Header": "Are you the spouse, civil partner or child of the person who died?",
         "Hint": "You must be the husband, wife, civil partner or a child over 18 to continue with your application online.</br></br>This does not include long-term partners who lived together but did not marry or enter into a civil partnership.</br></br>You may need to provide your certificate of marriage or civil partnership.",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if you are the spouse, civil partner or child of the person who died",
         "OnYes": "joint-application",
         "OnNo": "not-related"
     },
@@ -87,7 +87,7 @@
         "Template": "Question",
         "Header": "Do you have the original will?",
         "Hint": "You need the original, not a photocopy",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if you have the original will",
         "OnYes": "executor",
         "OnNo": "no-will"
     },
@@ -96,7 +96,7 @@
         "Template": "Question",
         "Header": "Are you named as an executor on the will?",
         "Hint": "An executor is repsonsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if you are named as an executor on the will",
         "OnYes": "executor-decisions",
         "OnNo": "not-executor"
     },
@@ -117,7 +117,7 @@
         "Template": "Question",
         "Header": "Are you making a joint application?",
         "Hint": "You may want to apply with someone in your family, for example your sister or brother.",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if you are making a joint application",
         "OnYes": "no-joint-application",
         "OnNo": "create-account"
     },
@@ -126,7 +126,7 @@
         "Template": "Question",
         "Header": "Are all the executors able to make their own decisions?",
         "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about mental capacity (opens in a new window) on GOV.UK",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+        "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
         "OnYes": "create-account",
         "OnNo": "unable"
     },
