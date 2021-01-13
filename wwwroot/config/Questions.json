@@ -44,12 +44,13 @@
         "Hint": "You can't use the online service because the person who died didn't live in Northern Ireland or intend to return here.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
     },
     {
-        "Page": "iht",
-        "Template": "Question",
-        "Header": "Has an Inheritance Tax (IHT) form been filled in?",
-        "Validation": "Answer ‘yes’ if you have completed the Inheritance Tax Forms.",
-        "OnYes": "has-will",
-        "OnNo": "no-iht"
+      "Page": "iht",
+      "Template": "Question",
+      "Header": "Has an Inheritance Tax (IHT) form been filled in?",
+      "Hint": "If the answer is No, You cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
+      "Validation": "Answer ‘yes’ if you have completed the Inheritance Tax Forms.",
+      "OnYes": "has-will",
+      "OnNo": "no-iht"
     },
     {
         "Page": "no-iht",
