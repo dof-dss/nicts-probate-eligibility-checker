@@ -8,13 +8,13 @@
         "OnNo": "not-18"
     },
     {
-        "Page": "death-certificate",
-        "Template": "Question",
-        "Header": "Do you have a death certificate?",
-        "Hint": "You need the original death certificate or an interim death certificate (opens in a new window) from the coroner.",
-        "Validation": "Answer 'yes' you have a death certificate.",
-        "OnYes": "domicile-ni",
-        "OnNo": "no-death-certificate"
+      "Page": "death-certificate",
+      "Template": "Question",
+      "Header": "Do you have a death certificate?",
+      "Hint": "You need the <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/registering-death-district-registrar'>original death certificate (opens in a new window)</a> or an <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/coroners-post-mortems-and-inquests'>interim death certificate (opens in a new window)</a> from the coroner.",
+      "Validation": "Answer 'yes' you have a death certificate.",
+      "OnYes": "domicile-ni",
+      "OnNo": "no-death-certificate"
     },
     {
         "Page": "no-death-certificate",
@@ -28,15 +28,15 @@
         "Header": "Sorry, you can't use the online service",
         "Hint": "You need to be 18 to apply for Probate"
     },
-    {
-        "Page": "domicile-ni",
-        "Template": "Question",
-        "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
-        "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about domicile (opens in a new window)",
-        "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
-        "OnYes": "iht",
-        "OnNo": "not-ni"
-    },
+  {
+    "Page": "domicile-ni",
+    "Template": "Question",
+    "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
+    "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
+    "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+    "OnYes": "iht",
+    "OnNo": "not-ni"
+  },
     {
         "Page": "not-ni",
         "Template": "End",
@@ -137,15 +137,15 @@
         "OnYes": "no-joint-application",
         "OnNo": "create-account"
     },
-    {
-      "Page": "executor-decisions",
-      "Template": "Question",
-      "Header": "Are all the executors able to make their own decisions?",
-      "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about mental capacity (opens in a new window) on GOV.UK",
-      "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
-      "OnYes": "executor-digitals",
-      "OnNo": "unable"
-    },
+  {
+    "Page": "executor-decisions",
+    "Template": "Question",
+    "Header": "Are all the executors able to make their own decisions?",
+    "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a> on GOV.UK",
+    "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
+    "OnYes": "executor-digitals",
+    "OnNo": "unable"
+  },
     {
       "Page": "executor-digitals",
       "Template": "Question",
