@@ -19,29 +19,29 @@
     {
         "Page": "no-death-certificate",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for probate"
     },
     {
         "Page": "not-18",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You need to be 18 to apply for Probate"
     },
-  {
-    "Page": "domicile-ni",
-    "Template": "Question",
-    "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
-    "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
-    "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
-    "OnYes": "iht",
-    "OnNo": "not-ni"
-  },
+    {
+      "Page": "domicile-ni",
+      "Template": "Question",
+      "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
+      "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
+      "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+      "OnYes": "iht",
+      "OnNo": "not-ni"
+    },
     {
         "Page": "not-ni",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
-        "Hint": "You can't use the online service because the person who died didn't live in Northern Ireland or intend to return here.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
+        "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You can't use the online service because the person who died didn't live in Northern Ireland or intend to return here.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
     },
     {
       "Page": "iht",
@@ -55,7 +55,7 @@
     {
       "Page": "no-iht",
       "Template": "End",
-      "Header": "Sorry, you can't use the online service",
+      "Header": "Sorry, you can't use the online service at this time",
       "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for probate"
     },
     {
@@ -80,7 +80,7 @@
     {
       "Page": "married-after-will",
       "Template": "End",
-      "Header": "Sorry, you can't use the online service",
+      "Header": "Sorry, you can't use the online service at this time",
       "Hint": "The marriage may have invalidated the Will – please seek legal advice on this issue before making your application"
     },
     {
@@ -95,7 +95,7 @@
     {
         "Page": "not-related",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
     },
     {
@@ -117,15 +117,15 @@
         "OnNo": "not-executor"
     },
     {
-        "Page": "no-will",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service",
-        "Hint": "You can't use the online service if you don't have the original will of the person who died.</br></br>You will need to apply by post instead.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
+      "Page": "no-will",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "lease contact the Probate Office on 0300 2007 812 for further guidance on the next steps you should take."
     },
     {
         "Page": "not-executor",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)the "
     },
     {
@@ -137,15 +137,15 @@
         "OnYes": "no-joint-application",
         "OnNo": "create-account"
     },
-  {
-    "Page": "executor-decisions",
-    "Template": "Question",
-    "Header": "Are all the executors able to make their own decisions?",
-    "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a> on GOV.UK",
-    "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
-    "OnYes": "executor-digitals",
-    "OnNo": "unable"
-  },
+    {
+      "Page": "executor-decisions",
+      "Template": "Question",
+      "Header": "Are all the executors able to make their own decisions?",
+      "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a> on GOV.UK",
+      "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
+      "OnYes": "executor-digitals",
+      "OnNo": "unable"
+    },
     {
       "Page": "executor-digitals",
       "Template": "Question",
@@ -157,13 +157,13 @@
     {
         "Page": "no-digitals",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You will need to apply via paper forms instead."
     },
     {
         "Page": "unable",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can’t use the online service as not all executors are able to make their own decisions.</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window).</br></br>You will also need to complete a ‘mental capacity form’ (opens in a new window) for the executor who is unable to make their own decisions."
     },
     {
@@ -175,7 +175,7 @@
     {
         "Page": "no-joint-application",
         "Template": "End",
-        "Header": "Sorry, you can't use the online service",
+        "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
     }
 ]
