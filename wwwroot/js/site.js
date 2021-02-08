@@ -1,4 +1,12 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// code for keeping footer at a nice height.
+function adjustFooterHeight() {
+    var docHeight = $(window).height();
+    var footerHeight = $('.nidirect_footer').height();
+    var footerTop = $('.nidirect_footer').position().top + footerHeight;
 
-// Write your JavaScript code.
+    if (footerTop < docHeight) {
+        $('.nidirect_footer').css('margin-top', -20 + (docHeight - footerTop) + 'px');
+    }
+}
+
+adjustFooterHeight();
