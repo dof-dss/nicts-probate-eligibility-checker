@@ -2,15 +2,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="no index, no follow"/>
-        <title>@Model.Header - Apply for Probate</title>
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/sass/site.css" />
-        <link rel="shortcut icon" size="16x16 32x32 48x48" href="~/node_modules/nidirect-frontend/assets/images/favicon.ico" type="image/x-icon"> 
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="no index, no follow" />
+    <meta name="description" content="Eligibility checker for Probate Service For Northern Ireland. Apply for Probate." />
+    <title>@(Model.Header != null ? Model.Header + " - " : string.Empty) Apply for Probate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/sass/site.css" />
+    <link rel="shortcut icon" size="16x16 32x32 48x48" href="~/node_modules/nidirect-frontend/assets/images/favicon.ico" type="image/x-icon">
+</head>
     <body>
         <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
         <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
@@ -19,7 +20,7 @@
         <div class="govuk-width-container app-width-container">
             <partial name="../Components/_alpha.cshtml" />
             <div class="govuk__container">
-                <main role="main" class="govuk-main-wrapper">
+                <main role="main" class="govuk-main-wrapper" id="main-content">
                     <div class="govuk-grid-row">
                         <div class="govuk-grid-column-two-thirds">
                             @RenderBody()

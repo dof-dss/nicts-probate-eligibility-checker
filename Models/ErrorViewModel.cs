@@ -1,5 +1,3 @@
-using System;
-
 namespace eligibility_checker.Models
 {
     public class ErrorViewModel

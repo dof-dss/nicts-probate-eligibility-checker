@@ -172,10 +172,17 @@
         "Header": "Create an account",
         "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because we can't discuss details with anyone but the person making the application."
     },
-    {
-        "Page": "no-joint-application",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
-    }
+  {
+    "Page": "no-joint-application",
+    "Template": "End",
+    "Header": "Sorry, you can't use the online service at this time",
+    "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
+  },
+  {
+    "Page": "Accessibility",
+    "Template": "End",
+    "Header": "Accessibility statement for Probate Service",
+    "Hint": ""
+
+  }
 ]
