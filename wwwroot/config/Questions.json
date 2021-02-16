@@ -89,7 +89,7 @@
         "Header": "Are you the spouse, civil partner or child of the person who died?",
         "Hint": "You must be the husband, wife, civil partner or a child over 18 to continue with your application online.</br></br>This does not include long-term partners who lived together but did not marry or enter into a civil partnership.</br></br>You may need to provide your certificate of marriage or civil partnership.",
         "Validation": "Answer ‘yes’ if you are the spouse, civil partner or child of the person who died",
-        "OnYes": "joint-application",
+        "OnYes": "create-account",
         "OnNo": "not-related"
     },
     {
@@ -128,16 +128,7 @@
         "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)the "
     },
-    {
-        "Page": "joint-application",
-        "Template": "Question",
-        "Header": "Are you making a joint application?",
-        "Hint": "You may want to apply with someone in your family, for example your sister or brother.",
-        "Validation": "Answer ‘yes’ if you are making a joint application",
-        "OnYes": "no-joint-application",
-        "OnNo": "create-account"
-    },
-    {
+    {create
       "Page": "executor-decisions",
       "Template": "Question",
       "Header": "Are all the executors able to make their own decisions?",
