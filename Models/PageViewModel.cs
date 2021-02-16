@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
-using System;
 
 namespace eligibility_checker.Models
 {
     public class PageViewModel
     {
-        public PageViewModel(PageModel model){
+        public PageViewModel(PageModel model)
+        {
             Page = model.Page;
             Header = model.Header;
             Hint = model.Hint;
