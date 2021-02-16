@@ -128,7 +128,7 @@
         "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)the "
     },
-    {create
+    {
       "Page": "executor-decisions",
       "Template": "Question",
       "Header": "Are all the executors able to make their own decisions?",
