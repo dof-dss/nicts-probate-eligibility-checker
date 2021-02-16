@@ -72,7 +72,7 @@
       "Template": "Question",
       "Header": "Did the person who died marry or enter into a civil partnership after the Will was signed?",
       "Hint": "",
-      "Validation": "Answer ‘yes’ if the person who died left a will",
+      "Validation": "Answer ‘yes’ if the person who died married or entered into a civil partnership after the will was signed",
       "OnYes": "married-after-will",
       "OnNo": "original-will"
 
