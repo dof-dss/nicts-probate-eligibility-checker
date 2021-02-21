@@ -948,7 +948,8 @@
 				});
 			},
 
-			showLabel: function (element, message) {
+			showLabel: function (element, message)
+			{
 				var place, group, errorID, v,
 					error = this.errorsFor(element),
 					elementID = this.idOrName(element),
@@ -963,11 +964,12 @@
 					error.html(message);
 				} else {
 
+					// Michael changed this as this should happen
 					// Create error element
-					error = $("<" + this.settings.errorElement + ">")
-						.attr("id", elementID + "-error")
-						.addClass(this.settings.errorClass)
-						.html(message || "");
+					//error = $("<" + this.settings.errorElement + ">")
+					//	.attr("id", elementID + "-error")
+					//	.addClass(this.settings.errorClass)
+					//	.html(message || "");
 
 					// Maintain reference to the element to be placed into the DOM
 					place = error;
