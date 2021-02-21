@@ -1,4 +1,10 @@
- @model eligibility_checker.Models.PageViewModel
- 
- <h1 class="govuk-heading-l">@Model.Header</h1>
- <div id="changed-name-hint" class="govuk-hint">@Html.Raw(Model.Hint)</div>
+@model eligibility_checker.Models.PageViewModel
+
+<h1 class="govuk-heading-l">@Model.Header</h1>
+
+@if (Model.Page != "start")
+{
+    <a href="javascript:history.go(-1)" class="govuk-back-link">Back</a>
+}
+
+<div id="changed-name-hint" class="govuk-hint">@Html.Raw(Model.Hint)</div>
