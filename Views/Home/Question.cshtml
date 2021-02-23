@@ -1,7 +1,14 @@
 @model eligibility_checker.Models.PageViewModel
 
 <form method="post" asp-controller="Home" asp-action="Index"
-     asp-route-page="@Model.Page">
+      asp-route-page="@Model.Page">
+
+
+    @if (Model.Page != "start")
+    {
+        <a href="javascript:history.go(-1)" class="govuk-back-link">Back</a>
+    }
+
     <partial name="../Components/_errorSummary.cshtml" />
 
     <div class="govuk-form-group">
@@ -10,10 +17,6 @@
                 <h1 class="govuk-fieldset__heading">@Model.Header</h1>
             </legend>
 
-            @if (Model.Page != "start")
-            {
-                <a href="javascript:history.go(-1)" class="govuk-back-link">Back</a>
-            }
 
             <span asp-validation-for="Answer" class="govuk-error-message">
             </span>
