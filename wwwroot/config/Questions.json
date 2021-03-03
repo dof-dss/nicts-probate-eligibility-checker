@@ -155,7 +155,7 @@
         "Page": "unable",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can’t use the online service as not all executors are able to make their own decisions.</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window).</br></br>You will also need to complete a ‘mental capacity form’ (opens in a new window) for the executor who is unable to make their own decisions."
+        "Hint":  "You can’t use the online service as not all executors are able to make their own decisions.</br></br>Please seek legal advice regarding the next steps you should take."
     },
     {
         "Page": "create-account",
