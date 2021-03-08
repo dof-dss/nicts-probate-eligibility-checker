@@ -111,7 +111,7 @@
         "Page": "executor",
         "Template": "Question",
         "Header": "Are you named as an executor on the will?",
-        "Hint": "An executor is repsonsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
+        "Hint": "An executor is responsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
         "Validation": "Answer ‘yes’ if you are named as an executor on the will",
         "OnYes": "executor-decisions",
         "OnNo": "not-executor"
