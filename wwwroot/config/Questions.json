@@ -3,7 +3,7 @@
         "Template": "Question",
         "Header": "Are you over 18 years old?",
         "Hint": "You must be 18 years old or over to apply for probate in Northern Ireland.",
-        "Validation": "Answer 'yes' if you are over 18 years old",
+        "Validation": "Answer 'Yes' if you are over 18 years old",
         "OnYes": "death-certificate",
         "OnNo": "not-18"
     },
@@ -12,7 +12,7 @@
       "Template": "Question",
       "Header": "Do you have a death certificate?",
       "Hint": "You need the <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/registering-death-district-registrar'>original death certificate (opens in a new window)</a> or an <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/coroners-post-mortems-and-inquests'>interim death certificate (opens in a new window)</a> from the coroner.",
-      "Validation": "Answer 'yes' you have a death certificate.",
+      "Validation": "Answer 'Yes' you have a death certificate.",
       "OnYes": "domicile-ni",
       "OnNo": "no-death-certificate"
     },
@@ -33,7 +33,7 @@
       "Template": "Question",
       "Header": "Did the person who died live permanently in Northern Ireland, or intend to return here?",
       "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
-      "Validation": "Answer ‘yes’ if the person who died lived in Northern Ireland or intended to return here",
+      "Validation": "Answer ‘Yes’ if the person who died lived in Northern Ireland or intended to return here",
       "OnYes": "iht",
       "OnNo": "not-ni"
     },
@@ -47,8 +47,8 @@
       "Page": "iht",
       "Template": "Question",
       "Header": "Has an Inheritance Tax (IHT) form been filled in?",
-      "Hint": "If the answer is No, You cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
-      "Validation": "Answer ‘yes’ if you have completed the Inheritance Tax Forms.",
+      "Hint": "If the answer is no, you cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
+      "Validation": "Answer ‘Yes’ if you have completed the Inheritance Tax Forms.",
       "OnYes": "has-will",
       "OnNo": "no-iht"
     },
@@ -63,7 +63,7 @@
       "Template": "Question",
       "Header": "Did the person who died leave a will?",
       "Hint": "",
-      "Validation": "Answer ‘yes’ if the person who died left a will",
+      "Validation": "Answer ‘Yes’ if the person who died left a will",
       "OnYes": "was-married",
       "OnNo": "relationship"
     },
@@ -72,7 +72,7 @@
       "Template": "Question",
       "Header": "Did the person who died marry or enter into a civil partnership after the Will was signed?",
       "Hint": "",
-      "Validation": "Answer ‘yes’ if the person who died married or entered into a civil partnership after the will was signed",
+      "Validation": "Answer ‘Yes’ if the person who died married or entered into a civil partnership after the will was signed",
       "OnYes": "married-after-will",
       "OnNo": "original-will"
 
@@ -88,7 +88,7 @@
         "Template": "Question",
         "Header": "Are you the spouse, civil partner or child of the person who died?",
         "Hint": "You must be the husband, wife, civil partner or a child over 18 to continue with your application online.</br></br>This does not include long-term partners who lived together but did not marry or enter into a civil partnership.</br></br>You may need to provide your certificate of marriage or civil partnership.",
-        "Validation": "Answer ‘yes’ if you are the spouse, civil partner or child of the person who died",
+        "Validation": "Answer ‘Yes’ if you are the spouse, civil partner or child of the person who died",
         "OnYes": "create-account",
         "OnNo": "not-related"
     },
@@ -103,7 +103,7 @@
         "Template": "Question",
         "Header": "Do you have the original will?",
         "Hint": "You need the original, not a photocopy",
-        "Validation": "Answer ‘yes’ if you have the original will",
+        "Validation": "Answer ‘Yes’ if you have the original will",
         "OnYes": "executor",
         "OnNo": "no-will"
     },
@@ -112,7 +112,7 @@
         "Template": "Question",
         "Header": "Are you named as an executor on the will?",
         "Hint": "An executor is responsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
-        "Validation": "Answer ‘yes’ if you are named as an executor on the will",
+        "Validation": "Answer ‘Yes’ if you are named as an executor on the will",
         "OnYes": "executor-decisions",
         "OnNo": "not-executor"
     },
@@ -133,7 +133,7 @@
       "Template": "Question",
       "Header": "Are all the executors able to make their own decisions?",
       "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a> on GOV.UK",
-      "Validation": "Answer ‘yes’ if all executors are able to make their own decisions",
+      "Validation": "Answer ‘Yes’ if all executors are able to make their own decisions",
       "OnYes": "executor-digitals",
       "OnNo": "unable"
     },
@@ -141,7 +141,7 @@
       "Page": "executor-digitals",
       "Template": "Question",
       "Header": "Do all executors who are applying have a valid email address and mobile phone number?",
-      "Validation": "Answer ‘yes’ if all executors have an e-mail address and mobile phone number",
+      "Validation": "Answer ‘Yes’ if all executors have an e-mail address and mobile phone number",
       "OnYes": "create-account",
       "OnNo": "no-digitals"
     },
