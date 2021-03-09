@@ -140,7 +140,7 @@
     {
       "Page": "executor-digitals",
       "Template": "Question",
-      "Header": "Do all executors (who are applying) have a valid e-mail address and mobile phone number?",
+      "Header": "Do all executors who are applying have a valid email address and mobile phone number?",
       "Validation": "Answer ‘yes’ if all executors have an e-mail address and mobile phone number",
       "OnYes": "create-account",
       "OnNo": "no-digitals"
@@ -158,10 +158,10 @@
         "Hint":  "You can’t use the online service as not all executors are able to make their own decisions.</br></br>Please seek legal advice regarding the next steps you should take."
     },
     {
-        "Page": "create-account",
-        "Template": "Apply",
-        "Header": "Create an account",
-        "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because we can't discuss details with anyone but the person making the application."
+      "Page": "create-account",
+      "Template": "Apply",
+      "Header": "Create an account",
+      "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because Probate Office can't discuss details with anyone but the person making the application."
     },
   {
     "Page": "no-joint-application",
