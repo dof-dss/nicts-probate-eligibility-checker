@@ -2,7 +2,7 @@
         "Page": "start",
         "Template": "Question",
         "Header": "Are you over 18 years old?",
-        "Hint": "You must be 18 years old to apply for probate in Northern Ireland.",
+        "Hint": "You must be 18 years old or over to apply for probate in Northern Ireland.",
         "Validation": "Answer 'yes' if you are over 18 years old",
         "OnYes": "death-certificate",
         "OnNo": "not-18"
