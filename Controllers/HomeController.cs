@@ -39,6 +39,7 @@ namespace eligibility_checker.Controllers
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Index(bool answer, string page)
         {
             var source = GetPage(page);
