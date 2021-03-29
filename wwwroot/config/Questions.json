@@ -33,7 +33,7 @@
     "Template": "Question",
     "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
     "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
-    "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
+    "Validation": "Answer ‘Yes’ if the person who died lived in, or intend to return to, Northern Ireland",
     "OnYes": "iht",
     "OnNo": "not-ni"
   },
