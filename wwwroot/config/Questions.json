@@ -12,7 +12,7 @@
       "Template": "Question",
       "Header": "Do you have a death certificate?",
       "Hint": "You need the <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/registering-death-district-registrar'>original death certificate (opens in a new window)</a> or an <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/articles/coroners-post-mortems-and-inquests'>interim death certificate (opens in a new window)</a> from the coroner.",
-      "Validation": "Answer 'Yes' you have a death certificate.",
+      "Validation": "Answer 'Yes' if you have a death certificate",
       "OnYes": "domicile-ni",
       "OnNo": "no-death-certificate"
     },
@@ -20,7 +20,7 @@
         "Page": "no-death-certificate",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for probate"
+        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for Probate"
     },
     {
         "Page": "not-18",
@@ -33,7 +33,7 @@
     "Template": "Question",
     "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
     "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
-    "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland.",
+    "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
     "OnYes": "iht",
     "OnNo": "not-ni"
   },
@@ -61,9 +61,9 @@
     {
       "Page": "has-will",
       "Template": "Question",
-      "Header": "Did the person who died leave a will?",
+      "Header": "Did the person who died leave a Will?",
       "Hint": "",
-      "Validation": "Answer ‘Yes’ if the person who died left a will",
+      "Validation": "Answer ‘Yes’ if the person who died left a Will",
       "OnYes": "was-married",
       "OnNo": "relationship"
     },
@@ -72,7 +72,7 @@
       "Template": "Question",
       "Header": "Did the person who died marry or enter into a civil partnership after the Will was signed?",
       "Hint": "",
-      "Validation": "Answer ‘Yes’ if the person who died married or entered into a civil partnership after the will was signed",
+      "Validation": "Answer ‘Yes’ if the person who died married or entered into a civil partnership after the Will was signed",
       "OnYes": "married-after-will",
       "OnNo": "original-will"
 
@@ -101,18 +101,18 @@
     {
         "Page": "original-will",
         "Template": "Question",
-        "Header": "Do you have the original will?",
+        "Header": "Do you have the original Will?",
         "Hint": "You need the original, not a photocopy",
-        "Validation": "Answer ‘Yes’ if you have the original will",
+        "Validation": "Answer ‘Yes’ if you have the original Will",
         "OnYes": "executor",
         "OnNo": "no-will"
     },
     {
         "Page": "executor",
         "Template": "Question",
-        "Header": "Are you named as an executor on the will?",
-        "Hint": "An executor is responsible for carrying out the instructions in the will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
-        "Validation": "Answer ‘Yes’ if you are named as an executor on the will",
+        "Header": "Are you named as an executor on the Will?",
+        "Hint": "An executor is responsible for carrying out the instructions in the Will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
+        "Validation": "Answer ‘Yes’ if you are named as an executor on the Will",
         "OnYes": "executor-decisions",
         "OnNo": "not-executor"
     },
