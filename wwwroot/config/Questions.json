@@ -28,15 +28,15 @@
         "Header": "Sorry, you can't use the online service at this time",
         "Hint": "You need to be 18 to apply for Probate"
     },
-  {
-    "Page": "domicile-ni",
-    "Template": "Question",
-    "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
-    "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
-    "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
-    "OnYes": "iht",
-    "OnNo": "not-ni"
-  },
+    {
+      "Page": "domicile-ni",
+      "Template": "Question",
+      "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
+      "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
+      "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
+      "OnYes": "iht",
+      "OnNo": "not-ni"
+    },
     {
         "Page": "not-ni",
         "Template": "End",
@@ -84,13 +84,22 @@
       "Hint": "The marriage may have invalidated the Will – please seek legal advice on this issue before making your application"
     },
     {
-        "Page": "relationship",
-        "Template": "Question",
-        "Header": "Are you the spouse, civil partner or child of the person who died?",
-        "Hint": "You must be the husband, wife, civil partner or a child over 18 to continue with your application online.</br></br>This does not include long-term partners who lived together but did not marry or enter into a civil partnership.</br></br>You may need to provide your certificate of marriage or civil partnership.",
-        "Validation": "Answer ‘Yes’ if you are the spouse, civil partner or child of the person who died",
-        "OnYes": "create-account",
-        "OnNo": "not-related"
+      "Page": "relationship",
+      "Template": "Question",
+      "Header": "Are you the spouse/civil partner, child, grandchild, parent, brother or sister of the person who died?",
+      "Hint": "Relatives are entitled to apply in the following order:</br></br><ul><li>Husband, wife or civil partner (including if they were separated)</li><li>children (including legally adopted children but not step-children)</li><li>grandchildren</li><li>parents</li><li>brothers and sisters</li></ul>Please click this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inherits-someone-dies-without-will'>link</a> to check your entitlement",
+      "Validation": "Answer ‘Yes’ if you are the spouse, child, grandchild, parent, brother or sister of the person who died",
+      "OnYes": "joint-application",
+      "OnNo": "not-related"
+    },
+    {
+      "Page": "joint-application",
+      "Template": "Question",
+      "Header": "Are you making a joint application?",
+      "Hint": "Only people with the same entitlement as you can apply e.g. your brother or sister.</br></br> A maximum of 4 people can apply.",
+      "Validation": "Answer ‘Yes’ if you are making a joint application",
+      "OnYes": "no-joint-application",
+      "OnNo": "create-account"
     },
     {
         "Page": "not-related",
@@ -163,17 +172,17 @@
       "Header": "Create an account",
       "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because Probate Office can't discuss details with anyone but the person making the application."
     },
-  {
-    "Page": "no-joint-application",
-    "Template": "End",
-    "Header": "Sorry, you can't use the online service at this time",
-    "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
-  },
-  {
-    "Page": "Accessibility",
-    "Template": "End",
-    "Header": "Accessibility statement for Probate Service",
-    "Hint": ""
+    {
+      "Page": "no-joint-application",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
+    },
+    {
+      "Page": "Accessibility",
+      "Template": "End",
+      "Header": "Accessibility statement for Probate Service",
+      "Hint": ""
 
-  }
+    }
 ]
