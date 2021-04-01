@@ -98,8 +98,23 @@
       "Header": "Are you making a joint application?",
       "Hint": "Only people with the same entitlement as you can apply e.g. your brother or sister.</br></br> A maximum of 4 people can apply.",
       "Validation": "Answer ‘Yes’ if you are making a joint application",
-      "OnYes": "no-joint-application",
+      "OnYes": "applicant-entitlement",
       "OnNo": "create-account"
+    },
+    {
+      "Page": "applicant-entitlement",
+      "Template": "Question",
+      "Header": "Do all applicants have the same entitlement?",
+      "Hint": "Only people with the same entitlement as you can apply e.g. your brother or sister.</br></br> A maximum of 4 people can apply.",
+      "Validation": "Answer ‘Yes’ if all applicants have the same entitlement",
+      "OnYes": "create-account",
+      "OnNo": "no-applicant-entitlement"
+    },
+    {
+        "Page": "no-applicant-entitlement",
+        "Template": "End",
+        "Header": "Sorry, you can't use the online service at this time",
+        "Hint": "Please seek legal advice regarding the next steps you should take."
     },
     {
         "Page": "not-related",
