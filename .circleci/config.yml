@@ -28,15 +28,15 @@ jobs:
 workflows:
   test-and-deploy-sandbox:
     jobs:
-      - test:
-          filters:
-            branches:
-              only:
-                - main
+    #  - test:
+     #     filters:
+       #     branches:
+     #         only:
+      #          - main
       - deploy:
           space: "sandbox"
-          requires:
-            - test
+        #  requires:
+        #    - test
           filters:
             branches:
               only:
@@ -52,8 +52,8 @@ workflows:
     #          ignore: /.*/
       - hold:
           type: approval 
-          requires:
-           - test
+       #   requires:
+        #   - test
           filters:    # selected tags and no branches
             tags:
               only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
