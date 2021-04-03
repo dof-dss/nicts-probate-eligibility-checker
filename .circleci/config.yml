@@ -46,7 +46,7 @@ workflows:
           space: sandbox
           context: govuk-paas-sandbox
           manifest: manifest.yml
-   test-and-deploy-staging:
+  test-and-deploy-staging:
     jobs:
    #   - test:
    #       filters:    # selected tags and no branches
