@@ -26,36 +26,34 @@ jobs:
           name: "Wait for approval"
           command: echo Wait
 workflows:
-  build-deploy-sandbox:
+  test-and-deploy-sandbox:
     jobs:
-      - build:
+      - test:
           filters:
             branches:
               only:
                 - main
-      - cloudfoundry/push:
+      - deploy:
+          space: "sandbox"
+          requires:
+            - test
           filters:
             branches:
               only:
                 - main
-          appname: eligibility-checker-sandbox
-          requires: 
-            - build
-          org: nicts-probate
-          endpoint: https://api.london.cloud.service.gov.uk
-          space: sandbox
           context: govuk-paas-sandbox
-          manifest: manifest.yml
   test-and-deploy-staging:
     jobs:
-   #   - test:
-   #       filters:    # selected tags and no branches
-    #        tags:
-   #           only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
-    #        branches:
-   #           ignore: /.*/
+      - test:
+          filters:    # selected tags and no branches
+            tags:
+              only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
+            branches:
+              ignore: /.*/
       - hold:
           type: approval 
+          requires:
+           - test
           filters:    # selected tags and no branches
             tags:
               only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
@@ -71,4 +69,4 @@ workflows:
               only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
             branches:
               ignore: /.*/
-          context: govuk-paas-sandbox
+          context: govuk-paas-sandbox 
