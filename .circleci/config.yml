@@ -44,12 +44,12 @@ workflows:
           context: govuk-paas-sandbox
   test-and-deploy-staging:
     jobs:
-      - test:
-          filters:    # selected tags and no branches
-            tags:
-              only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
-            branches:
-              ignore: /.*/
+    #  - test:
+     #     filters:    # selected tags and no branches
+     #       tags:
+  #            only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
+      #      branches:
+    #          ignore: /.*/
       - hold:
           type: approval 
           requires:
