@@ -83,15 +83,15 @@
       "Header": "Sorry, you can't use the online service at this time",
       "Hint": "The marriage may have invalidated the Will – please seek legal advice on this issue before making your application"
     },
-    {
-      "Page": "relationship",
-      "Template": "Question",
-      "Header": "Are you the spouse/civil partner, child, grandchild, parent, brother or sister of the person who died?",
-      "Hint": "Relatives are entitled to apply in the following order:</br></br><ul><li>Husband, wife or civil partner (including if they were separated)</li><li>children (including legally adopted children but not step-children)</li><li>grandchildren</li><li>parents</li><li>brothers and sisters</li></ul>Please click this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inherits-someone-dies-without-will'>link</a> to check your entitlement",
-      "Validation": "Answer ‘Yes’ if you are the spouse, child, grandchild, parent, brother or sister of the person who died",
-      "OnYes": "joint-application",
-      "OnNo": "not-related"
-    },
+  {
+    "Page": "relationship",
+    "Template": "Question",
+    "Header": "Are you the spouse/civil partner, child, grandchild, parent, brother or sister of the person who died?",
+    "Hint": "Relatives are entitled to apply in the following order:</br></br><ul><li>Husband, wife or civil partner (including if they were separated)</li><li>children (including legally adopted children but not step-children)</li><li>grandchildren</li><li>parents</li><li>brothers and sisters</li></ul>Please click this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inherits-someone-dies-without-will'>link (opens in a new window)</a> to check your entitlement",
+    "Validation": "Answer ‘Yes’ if you are the spouse, child, grandchild, parent, brother or sister of the person who died",
+    "OnYes": "joint-application",
+    "OnNo": "not-related"
+  },
     {
       "Page": "joint-application",
       "Template": "Question",
@@ -116,12 +116,12 @@
         "Header": "Sorry, you can't use the online service at this time",
         "Hint": "Please seek legal advice regarding the next steps you should take."
     },
-    {
-        "Page": "not-related",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
-    },
+  {
+    "Page": "not-related",
+    "Template": "End",
+    "Header": "Sorry, you can't use the online service at this time",
+    "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=''>PA1A (opens in a new window)</a>."
+  },
     {
         "Page": "original-will",
         "Template": "Question",
