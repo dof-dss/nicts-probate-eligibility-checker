@@ -17,6 +17,29 @@ jobs:
       - run:
           name: "Build Application"
           command: dotnet build
+  deploy:
+    parameters:
+      space:
+        type: string
+      configuration:
+        type: string
+        default: "Sandbox"
+    executor:
+      name: windows/default
+    steps:
+      - install_cmd:
+          org: "nicts-probate"
+          space: << parameters.space >>
+      - checkout
+      - run:
+          name: "Install project dependencies"
+          command: dotnet restore
+      - run: 
+          name: "Deploy Probate to GOV UK PaaS"
+          command: |
+            cf push eligibility-checker-<< parameters.space >> --no-start
+            cf set-env eligibility-checker-<< parameters.space >> ASPNETCORE_ENVIRONMENT << parameters.configuration >>
+            cf start eligibility-checker-<< parameters.space >>          
 
   hold:
     executor:
