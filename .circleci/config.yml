@@ -4,6 +4,28 @@ orbs:
   windows: circleci/windows@2.2.0
   cloudfoundry: circleci/cloudfoundry@0.1.73
 
+commands:
+  install_cmd:
+    parameters:
+      org:
+        type: string
+        default: "nicts-probate"
+      space:
+        type: string
+        default: "sandbox"
+    steps:
+      - run:
+          name: "Install and configure Cloud Foundry CLI"
+          command: |
+            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+            choco install cloudfoundry-cli --version=6.51.0
+            cf -v
+            cf api https://api.london.cloud.service.gov.uk
+            cf auth "$CF_USERNAME" "$CF_PASSWORD"
+            cf target
+            echo "$CF_SPACE" 
+            cf target -o << parameters.org >>  -s << parameters.space >> 
+            
 jobs:
   build:
     executor:
