@@ -20,19 +20,19 @@
         "Page": "no-death-certificate",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for Probate"
+        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for probate."
     },
     {
         "Page": "not-18",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to be 18 to apply for Probate"
+        "Hint": "You need to be 18 to apply for probate."
     },
     {
       "Page": "domicile-ni",
       "Template": "Question",
       "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
-      "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>",
+      "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>.",
       "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
       "OnYes": "iht",
       "OnNo": "not-ni"
@@ -41,13 +41,13 @@
         "Page": "not-ni",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)"
+      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)."
     },
     {
       "Page": "iht",
       "Template": "Question",
       "Header": "Has an Inheritance Tax (IHT) form been filled in?",
-      "Hint": "If the answer is no, you cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
+      "Hint": "If the answer is no, you cannot apply for probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
       "Validation": "Answer ‘Yes’ if you have completed the Inheritance Tax Forms.",
       "OnYes": "has-will",
       "OnNo": "no-iht"
@@ -56,7 +56,7 @@
       "Page": "no-iht",
       "Template": "End",
       "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for probate"
+      "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for probate."
     },
     {
       "Page": "has-will",
@@ -81,13 +81,13 @@
       "Page": "married-after-will",
       "Template": "End",
       "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "The marriage may have invalidated the Will – please seek legal advice on this issue before making your application"
+      "Hint": "The marriage may have invalidated the Will – please seek legal advice on this issue before making your application."
     },
   {
     "Page": "relationship",
     "Template": "Question",
     "Header": "Are you the spouse/civil partner, child, grandchild, parent, brother or sister of the person who died?",
-    "Hint": "Relatives are entitled to apply in the following order:</br></br><ul><li>Husband, wife or civil partner (including if they were separated)</li><li>children (including legally adopted children but not step-children)</li><li>grandchildren</li><li>parents</li><li>brothers and sisters</li></ul>Please click this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inherits-someone-dies-without-will'>link (opens in a new window)</a> to check your entitlement",
+    "Hint": "Relatives are entitled to apply in the following order:</br></br><ul><li>Husband, wife or civil partner (including if they were separated)</li><li>children (including legally adopted children but not step-children)</li><li>grandchildren</li><li>parents</li><li>brothers and sisters</li></ul>Please click this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inherits-someone-dies-without-will'>link (opens in a new window)</a> to check your entitlement.",
     "Validation": "Answer ‘Yes’ if you are the spouse, child, grandchild, parent, brother or sister of the person who died",
     "OnYes": "joint-application",
     "OnNo": "not-related"
@@ -126,7 +126,7 @@
         "Page": "original-will",
         "Template": "Question",
         "Header": "Do you have the original Will?",
-        "Hint": "You need the original, not a photocopy",
+        "Hint": "You need the original, not a photocopy.",
         "Validation": "Answer ‘Yes’ if you have the original Will",
         "OnYes": "executor",
         "OnNo": "no-will"
@@ -150,13 +150,13 @@
         "Page": "not-executor",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)the "
+        "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)."
     },
     {
       "Page": "executor-decisions",
       "Template": "Question",
       "Header": "Are all the executors able to make their own decisions?",
-      "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a> on GOV.UK",
+      "Hint": "Some people are unable to make their own decisions, for example because of a brain injury or an illness like dementia.</br></br>You can read about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/contacts/contacts-az/office-care-and-protection'>mental capacity (opens in a new window)</a>.",
       "Validation": "Answer ‘Yes’ if all executors are able to make their own decisions",
       "OnYes": "executor-digitals",
       "OnNo": "unable"
@@ -185,7 +185,7 @@
       "Page": "create-account",
       "Template": "Apply",
       "Header": "Create an account",
-      "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because Probate Office can't discuss details with anyone but the person making the application."
+      "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because the Probate Office can't discuss details with anyone but the person making the application."
     },
     {
       "Page": "no-joint-application",
