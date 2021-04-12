@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace eligibility_checker.Helpers
+﻿namespace eligibility_checker.Helpers
 {
     /// <summary>
     /// Helper methods.
