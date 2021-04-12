@@ -1,4 +1,5 @@
 ﻿using eligibility_checker.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -12,10 +13,12 @@ namespace eligibility_checker.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IWebHostEnvironment _env;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IWebHostEnvironment env)
         {
             _logger = logger;
+            _env = env;
         }
 
         [HttpGet]
@@ -33,10 +36,15 @@ namespace eligibility_checker.Controllers
             {
                 var model = GetPage(page);
                 var viewModel = new PageViewModel(model);
+
+                if (page == "create-account")
+                {
+                    viewModel.ApplyUrl = Helpers.HelperMethods.GetVerifyLink(_env.EnvironmentName);
+                }
+
                 return View(model.Template, viewModel);
             }
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
