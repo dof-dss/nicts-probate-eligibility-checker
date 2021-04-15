@@ -41,7 +41,7 @@
         "Page": "not-ni",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)."
+      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a Will or not.</br></br>If the person left a Will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a Will, fill in the probate application form PA1A (opens in a new window)."
     },
     {
       "Page": "iht",
