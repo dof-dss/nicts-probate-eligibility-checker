@@ -2,7 +2,7 @@
         "Page": "start",
         "Template": "Question",
         "Header": "Are you over 18 years old?",
-        "Hint": "You must be 18 years old or over to apply for probate in Northern Ireland.",
+        "Hint": "You must be 18 years old or over to apply for Probate in Northern Ireland.",
         "Validation": "Answer 'Yes' if you are over 18 years old",
         "OnYes": "death-certificate",
         "OnNo": "not-18"
@@ -20,19 +20,19 @@
         "Page": "no-death-certificate",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for probate."
+        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for Probate."
     },
     {
         "Page": "not-18",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to be 18 to apply for probate."
+        "Hint": "You need to be 18 to apply for Probate."
     },
     {
       "Page": "domicile-ni",
       "Template": "Question",
       "Header": "Did the person who died live permanently in, or intend to return to, Northern Ireland?",
-      "Hint": "You can only apply for probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>.",
+      "Hint": "You can only apply for Probate online if the person who died was domiciled in Northern Ireland at the time of their death.</br></br>You can read more about <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax/when-someone-living-outside-the-uk-dies'> domicile (opens in a new window)</a>.",
       "Validation": "Answer ‘Yes’ if the person who died lived in, or intended to return to, Northern Ireland",
       "OnYes": "iht",
       "OnNo": "not-ni"
@@ -41,13 +41,13 @@
         "Page": "not-ni",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a Will or not.</br></br>If the person left a Will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a Will, fill in the probate application form PA1A (opens in a new window)."
+      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a Will or not.</br></br>If the person left a Will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a Will, fill in the Probate application form PA1A (opens in a new window)."
     },
     {
       "Page": "iht",
       "Template": "Question",
       "Header": "Has an Inheritance Tax (IHT) form been filled in?",
-      "Hint": "If the answer is no, you cannot apply for probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
+      "Hint": "If the answer is no, you cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
       "Validation": "Answer ‘Yes’ if you have completed the Inheritance Tax Forms.",
       "OnYes": "has-will",
       "OnNo": "no-iht"
@@ -56,7 +56,7 @@
       "Page": "no-iht",
       "Template": "End",
       "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for probate."
+      "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for Probate."
     },
     {
       "Page": "has-will",
@@ -120,7 +120,7 @@
     "Page": "not-related",
     "Template": "End",
     "Header": "Sorry, you can't use the online service at this time",
-    "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=''>PA1A (opens in a new window)</a>."
+    "Hint": "You can’t apply for Probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the Probate application form <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=''>PA1A (opens in a new window)</a>."
   },
     {
         "Page": "original-will",
@@ -150,7 +150,7 @@
         "Page": "not-executor",
         "Template": "End",
         "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)."
+        "Hint": "You can't apply for Probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the Probate application form PA1P (opens in a new window)."
     },
     {
       "Page": "executor-decisions",
@@ -185,13 +185,13 @@
       "Page": "create-account",
       "Template": "Apply",
       "Header": "Create an account",
-      "Hint": "Based on the information you've given, you have everything you need to make your application for probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because the Probate Office can't discuss details with anyone but the person making the application."
+      "Hint": "Based on the information you've given, you have everything you need to make your application for Probate online.</br></br>You will need an email address to create your account.</br></br>You must use your own email address even if someone helps with your application. That's because the Probate Office can't discuss details with anyone but the person making the application."
     },
     {
       "Page": "no-joint-application",
       "Template": "End",
       "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You can’t apply for probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the probate application form PA1A (opens in a new window)."
+      "Hint": "You can’t apply for Probate online if you want to make a joint application.</br</br>You will need to apply by post instead. Fill in the Probate application form PA1A (opens in a new window)."
     },
     {
       "Page": "Accessibility",
