@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  windows: circleci/windows@2.2.0
+  windows: circleci/windows@2.4.0
   cloudfoundry: circleci/cloudfoundry@0.1.73
 
 commands:
