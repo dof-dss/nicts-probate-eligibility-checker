@@ -5,6 +5,11 @@
     /// </summary>
     public static class HelperMethods
     {
+        /// <summary>
+        /// This determines what env the app is in and provides the create link to the app.
+        /// </summary>
+        /// <param name="environment"></param>
+        /// <returns></returns>
         public static string GetVerifyLink(string environment)
         {
             string urlToReturn = string.Empty;
