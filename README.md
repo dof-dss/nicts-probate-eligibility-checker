@@ -3,3 +3,4 @@
 # nicts-probate-eligibility-checker
 
 This is a simple eligibility checker for the Probate process. The users hit this first after the main Drupal site.
+Further documentation to follow...
