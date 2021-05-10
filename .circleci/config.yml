@@ -3,6 +3,7 @@ version: 2.1
 orbs:
   windows: circleci/windows@2.2.0
   cloudfoundry: circleci/cloudfoundry@0.1.73
+  sonarcloud: sonarsource/sonarcloud@1.0.1
 
 commands:
   install_cmd:
@@ -39,6 +40,9 @@ jobs:
       - run:
           name: "Build Application"
           command: dotnet build
+      - run:
+          name: "sonarcloud/scan"
+          context: "SonarCloud"
   deploy:
     parameters:
       space:
