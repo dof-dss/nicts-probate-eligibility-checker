@@ -2,7 +2,7 @@
   {
     "Page": "start",
     "Template": "Question",
-    "Header": "Are you a solicitor?",
+    "Header": "Are you a Solicitor acting on behalf of a client in this application?",
     "Validation": "Answer 'Yes' if you are a solicitor, 'No' if you are a citizen applying",
     "OnYes": "solicitor-redirect",
     "OnNo": "Eighteen"
