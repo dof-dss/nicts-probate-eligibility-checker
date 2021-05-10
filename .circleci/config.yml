@@ -41,9 +41,9 @@ jobs:
           name: "Build Application"
           command: dotnet build
           
-      - run:
-          name: "sonarcloud/scan"
-          context: "SonarCloud"
+  #    - run:
+    #      name: "sonarcloud/scan"
+   #       context: "SonarCloud"
   deploy:
     parameters:
       space:
