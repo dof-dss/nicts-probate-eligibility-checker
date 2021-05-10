@@ -10,7 +10,7 @@
         /// </summary>
         /// <param name="environment"></param>
         /// <returns></returns>
-        public static string GetVerifyLink(string environment)
+        public static string GetCitizenLink(string environment)
         {
             string urlToReturn = string.Empty;
 
