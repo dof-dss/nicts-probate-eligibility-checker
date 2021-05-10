@@ -79,8 +79,8 @@ jobs:
 workflows:
   test-and-deploy-sandbox:
     jobs:
-    #  - test:
-     #     filters:
+      - build:
+          context: SonarCloud
        #     branches:
      #         only:
       #          - main
