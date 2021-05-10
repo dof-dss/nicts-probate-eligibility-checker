@@ -1,12 +1,26 @@
-[{
-        "Page": "start",
-        "Template": "Question",
-        "Header": "Are you over 18 years old?",
-        "Hint": "You must be 18 years old or over to apply for Probate in Northern Ireland.",
-        "Validation": "Answer 'Yes' if you are over 18 years old",
-        "OnYes": "death-certificate",
-        "OnNo": "not-18"
+[
+  {
+    "Page": "start",
+    "Template": "Question",
+    "Header": "Are you a solicitor?",
+    "Validation": "Answer 'Yes' if you are a solicitor, 'No' if you are a citizen applying",
+    "OnYes": "solicitor-redirect",
+    "OnNo": "Eighteen"
+  },
+
+  
+    {
+      "Page": "Eighteen",
+      "Template": "Question",
+      "Header": "Are you over 18 years old?",
+      "Hint": "You must be 18 years old or over to apply for Probate in Northern Ireland.",
+      "Validation": "Answer 'Yes' if you are over 18 years old",
+      "OnYes": "death-certificate",
+      "OnNo": "not-18"
     },
+
+
+
     {
       "Page": "death-certificate",
       "Template": "Question",
@@ -17,16 +31,16 @@
       "OnNo": "no-death-certificate"
     },
     {
-        "Page": "no-death-certificate",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for Probate."
+      "Page": "no-death-certificate",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You need to have the original death certificate or an interim death certificate from the coroner to apply for Probate."
     },
     {
-        "Page": "not-18",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You need to be 18 to apply for Probate."
+      "Page": "not-18",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You need to be 18 to apply for Probate."
     },
     {
       "Page": "domicile-ni",
@@ -38,9 +52,9 @@
       "OnNo": "not-ni"
     },
     {
-        "Page": "not-ni",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
+      "Page": "not-ni",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
       "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a Will or not.</br></br>If the person left a Will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a Will, fill in the Probate application form PA1A (opens in a new window)."
     },
     {
@@ -120,10 +134,10 @@
       "OnNo": "no-applicant-entitlement"
     },
     {
-        "Page": "no-applicant-entitlement",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "Please seek legal advice regarding the next steps you should take."
+      "Page": "no-applicant-entitlement",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "Please seek legal advice regarding the next steps you should take."
     },
     {
       "Page": "not-related",
@@ -138,22 +152,22 @@
       "Hint": "You will need to apply via paper forms instead."
     },
     {
-        "Page": "original-will",
-        "Template": "Question",
-        "Header": "Do you have the original Will?",
-        "Hint": "You need the original, not a photocopy.",
-        "Validation": "Answer ‘Yes’ if you have the original Will",
-        "OnYes": "executor",
-        "OnNo": "no-will"
+      "Page": "original-will",
+      "Template": "Question",
+      "Header": "Do you have the original Will?",
+      "Hint": "You need the original, not a photocopy.",
+      "Validation": "Answer ‘Yes’ if you have the original Will",
+      "OnYes": "executor",
+      "OnNo": "no-will"
     },
     {
-        "Page": "executor",
-        "Template": "Question",
-        "Header": "Are you named as an executor on the Will?",
-        "Hint": "An executor is responsible for carrying out the instructions in the Will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
-        "Validation": "Answer ‘Yes’ if you are named as an executor on the Will",
-        "OnYes": "executor-decisions",
-        "OnNo": "not-executor"
+      "Page": "executor",
+      "Template": "Question",
+      "Header": "Are you named as an executor on the Will?",
+      "Hint": "An executor is responsible for carrying out the instructions in the Will.</br></br>This is not the same as a beneficiary who will get money or other property from the person who died. You could be named as both an executor and a beneficiary.",
+      "Validation": "Answer ‘Yes’ if you are named as an executor on the Will",
+      "OnYes": "executor-decisions",
+      "OnNo": "not-executor"
     },
     {
       "Page": "no-will",
@@ -162,10 +176,10 @@
       "Hint": "Please contact the Probate Office on 0300 2007 812 for further guidance on the next steps you should take."
     },
     {
-        "Page": "not-executor",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can't apply for Probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the Probate application form PA1P (opens in a new window)."
+      "Page": "not-executor",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You can't apply for Probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the Probate application form PA1P (opens in a new window)."
     },
     {
       "Page": "executor-decisions",
@@ -185,16 +199,16 @@
       "OnNo": "no-digitals"
     },
     {
-        "Page": "no-digitals",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You will need to apply via paper forms instead."
+      "Page": "no-digitals",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You will need to apply via paper forms instead."
     },
     {
-        "Page": "unable",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint":  "You can’t use the online service as not all executors are able to make their own decisions.</br></br>Please seek legal advice regarding the next steps you should take."
+      "Page": "unable",
+      "Template": "End",
+      "Header": "Sorry, you can't use the online service at this time",
+      "Hint": "You can’t use the online service as not all executors are able to make their own decisions.</br></br>Please seek legal advice regarding the next steps you should take."
     },
     {
       "Page": "create-account",
@@ -215,4 +229,4 @@
       "Hint": ""
 
     }
-]
+  ]

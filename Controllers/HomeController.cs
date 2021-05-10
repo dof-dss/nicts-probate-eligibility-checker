@@ -34,12 +34,17 @@ namespace eligibility_checker.Controllers
             }
             else
             {
+                if (page == "solicitor-redirect")
+                {
+                    return Redirect(Helpers.HelperMethods.GetSolicitorLink(_env.EnvironmentName));
+                }
+
                 var model = GetPage(page);
                 var viewModel = new PageViewModel(model);
 
                 if (page == "create-account")
                 {
-                    viewModel.ApplyUrl = Helpers.HelperMethods.GetVerifyLink(_env.EnvironmentName);
+                    viewModel.ApplyUrl = Helpers.HelperMethods.GetCitizenLink(_env.EnvironmentName);
                 }
 
                 return View(model.Template, viewModel);

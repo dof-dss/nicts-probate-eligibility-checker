@@ -6,11 +6,11 @@
     public static class HelperMethods
     {
         /// <summary>
-        /// This determines what env the app is in and provides the create link to the app.
+        /// This determines what env the app is in and provides the citizen link to the app.
         /// </summary>
         /// <param name="environment"></param>
         /// <returns></returns>
-        public static string GetVerifyLink(string environment)
+        public static string GetCitizenLink(string environment)
         {
             string urlToReturn = string.Empty;
 
@@ -30,6 +30,40 @@
 
                 case "Production":
                     urlToReturn = "https://apply-for-probate.nidirect.gov.uk/Dashboard";
+                    break;
+
+                default:
+                    break;
+            }
+
+            return urlToReturn;
+        }
+
+        /// <summary>
+        /// This determines what env the app is in and provides the solicitor link to the app.
+        /// </summary>
+        /// <param name="environment"></param>
+        /// <returns></returns>
+        public static string GetSolicitorLink(string environment)
+        {
+            string urlToReturn = string.Empty;
+
+            switch (environment)
+            {
+                case "Development":
+                    urlToReturn = "https://nicts-probate-solicitor-sandbox.london.cloudapps.digital/Dashboard";
+                    break;
+
+                case "Sandbox":
+                    urlToReturn = "https://nicts-probate-solicitor-sandbox.london.cloudapps.digital/Dashboard";
+                    break;
+
+                case "Staging":
+                    urlToReturn = "https://nicts-probate-solicitor-staging.london.cloudapps.digital/Dashboard";
+                    break;
+
+                case "Production":
+                    urlToReturn = "https://apply-for-probate-professional.nidirect.gov.uk/Dashboard";
                     break;
 
                 default:
