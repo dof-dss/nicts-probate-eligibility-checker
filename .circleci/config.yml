@@ -87,7 +87,7 @@ workflows:
             branches:
               only:
                 - main
-          context: govuk-paas-sandbox
+          context: nicts-paas-sandbox
   test-and-deploy-staging:
     jobs:
     #  - test:
