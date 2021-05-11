@@ -116,3 +116,31 @@ workflows:
             branches:
               ignore: /.*/
           context: nicts-paas-staging 
+  test-and-deploy-prod:
+    jobs:
+    #  - test:
+     #     filters:    # selected tags and no branches
+     #       tags:
+  #            only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(alpha|beta))?$/
+      #      branches:
+    #          ignore: /.*/
+      - hold:
+          type: approval 
+       #   requires:
+        #   - test
+          filters:    # selected tags and no branches
+            tags:
+              only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(prod))?$/
+            branches:
+              ignore: /.*/
+      - deploy:
+          space: "production"
+          configuration: "Production"
+          requires:
+            - hold
+          filters:    # selected tags and no branches
+            tags:
+              only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(prod))?$/
+            branches:
+              ignore: /.*/
+          context: nicts-paas-production 
