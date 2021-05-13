@@ -1,0 +1,10 @@
+---
+applications:
+- name: eligibility-checker-production
+  routes:
+    - route: eligibility-checker-production.london.cloudapps.digital
+    - route: www.check-eligibility.nidirect.gov.uk
+  buildpacks:
+  - dotnet_core_buildpack
+  memory: 256M
+  
