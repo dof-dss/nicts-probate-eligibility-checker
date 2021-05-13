@@ -15,7 +15,6 @@ This is a simple eligibility checker for the Probate process. The users hit this
     - [How did we do it](#how-did-we-do-it)
     - [Future Plans](#future-plans)
     - [Deployment Guide](#deployment-guide)
-    - [Administration](#administration)
 
 ## Contributing
 
@@ -29,27 +28,23 @@ Unless stated otherwise, the codebase is released under the MIT License. This co
 
 ### Why did we build this project?
 
-- [Project Mission Statement](./docs/mission.md)
+We built this to streamline the probate process.
 
 ### What problem was it solving?
 
+This solves the problem of working out if citizens can apply for probate online in Northern Ireland.
 
 ### How did we do it?
 
+This is a simple dotnet core application with the questions hard coded into the site.
 
 ### Future plans
 
-TBC
+This site will be used for a variety of other projects not just Probate. It will be used as an entry point to check eligibility for a certain government service.
 
 ### Deployment guide
 
-You will need to install these nuget packages:
-
-`nuget install`
-
-
-### Administration
-
-TBC
+To build run "dotnet build" in command line then
+dotnet run to run the site
 
 
