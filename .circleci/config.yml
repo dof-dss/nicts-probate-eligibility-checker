@@ -143,4 +143,5 @@ workflows:
               only: /^v(0|[0-9]\d*)\.(0|[0-9]\d*)\.(0|[0-9]\d*)(?:-(prod))?$/
             branches:
               ignore: /.*/
-          context: nicts-paas-production 
+          context: nicts-paas-production
+          manifest: Productionmanifest.yml
