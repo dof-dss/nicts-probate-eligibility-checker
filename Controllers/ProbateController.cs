@@ -21,6 +21,8 @@ namespace eligibility_checker.Controllers
         [HttpGet]
         public IActionResult Index(string page)
         {
+            ViewBag.ServiceName = "Apply for Probate";
+
             if (string.IsNullOrWhiteSpace(page))
             {
                 // Start
@@ -52,6 +54,8 @@ namespace eligibility_checker.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Index(bool answer, string page)
         {
+            ViewBag.ServiceName = "Apply for Probate";
+
             var source = GetPage(page);
             if (answer)
             {
@@ -66,6 +70,8 @@ namespace eligibility_checker.Controllers
         [HttpGet]
         public ActionResult Accessibility()
         {
+            ViewBag.ServiceName = "Check eligibility";
+
             var model = GetPage("Accessibility");
             model.Header = "Accessibility";
             var viewModel = new PageViewModel(model);
@@ -74,7 +80,6 @@ namespace eligibility_checker.Controllers
 
         private PageModel GetPage(string page)
         {
-
             var list = GetPages();
             return list.First(item => item.Page.ToLower() == page.ToLower());
         }
@@ -90,6 +95,7 @@ namespace eligibility_checker.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            ViewBag.ServiceName = "Apply for Probate";
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

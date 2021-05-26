@@ -9,6 +9,8 @@ namespace eligibility_checker.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            ViewBag.ServiceName = "Check eligibility";
+
             PageModel model = new PageModel();
 
             model.Header = "Menu";
@@ -21,6 +23,8 @@ namespace eligibility_checker.Controllers
         [HttpGet]
         public ActionResult Accessibility()
         {
+            ViewBag.ServiceName = "Check eligibility";
+
             PageModel model = new PageModel();
 
             model.Header = "Accessibility";
@@ -33,6 +37,8 @@ namespace eligibility_checker.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            ViewBag.ServiceName = "Check eligibility";
+
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
