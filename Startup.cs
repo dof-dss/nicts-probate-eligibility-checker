@@ -73,8 +73,8 @@ namespace test_nidirect
             {
                 endpoints.MapControllerRoute(
                     name: "eligibility",
-                    pattern: "check-eligibility/{page?}",
-                    defaults: new { controller = "Home", action = "Index" });
+                    pattern: "probate/check-eligibility/{page?}",
+                    defaults: new { controller = "Probate", action = "Index" });
 
                 endpoints.MapControllerRoute(
                     name: "default",

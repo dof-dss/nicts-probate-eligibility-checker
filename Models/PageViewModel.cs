@@ -21,5 +21,7 @@ namespace eligibility_checker.Models
 
         [Required]
         public bool? Answer { get; set; }
+
+        public string ApplyUrl { get; set; }
     }
 }
