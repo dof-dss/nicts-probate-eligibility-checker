@@ -37,12 +37,12 @@
       "OnYes": "iht",
       "OnNo": "not-ni"
     },
-    {
-        "Page": "not-ni",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-      "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application form PA1P (opens in a new window)</br></br>If the person did not leave a will, fill in the probate application form PA1A (opens in a new window)."
-    },
+  {
+    "Page": "not-ni",
+    "Template": "End",
+    "Header": "Sorry, you can't use the online service at this time",
+    "Hint": "You can't use the online service because the person who died didn't live in, or intend to return to, Northern Ireland.</br></br>You will need to apply by post instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-will-form'> form NIPF1 (opens in a new window)</a>.</br></br>If the person did not leave a will, fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-no-will-form'> form NIPF2 (opens in a new window)</a>."
+  },
     {
       "Page": "iht",
       "Template": "Question",
@@ -120,7 +120,7 @@
     "Page": "not-related",
     "Template": "End",
     "Header": "Sorry, you can't use the online service at this time",
-    "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application form <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=''>PA1A (opens in a new window)</a>."
+    "Hint": "You can’t apply for probate online if you’re not the husband, wife, civil partner or child of the person who died.</br></br>You will need to apply by post instead. Fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-no-will-form'> form NIPF2 (opens in a new window)</a>."
   },
     {
         "Page": "original-will",
@@ -146,12 +146,12 @@
       "Header": "Sorry, you can't use the online service at this time",
       "Hint": "Please contact the Probate Office on 0300 2007 812 for further guidance on the next steps you should take."
     },
-    {
-        "Page": "not-executor",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application form PA1P (opens in a new window)."
-    },
+  {
+    "Page": "not-executor",
+    "Template": "End",
+    "Header": "Sorry, you can't use the online service at this time",
+    "Hint": "You can't apply for probate online if you're not named as an executor or if you applying on behalf of someone else</br></br>You will need to apply by post instead. Fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-will-form'> form NIPF1 (opens in a new window)</a>."
+  },
     {
       "Page": "executor-decisions",
       "Template": "Question",
@@ -169,12 +169,12 @@
       "OnYes": "create-account",
       "OnNo": "no-digitals"
     },
-    {
-        "Page": "no-digitals",
-        "Template": "End",
-        "Header": "Sorry, you can't use the online service at this time",
-        "Hint": "You will need to apply via paper forms instead."
-    },
+  {
+    "Page": "no-digitals",
+    "Template": "End",
+    "Header": "Sorry, you can't use the online service at this time",
+    "Hint": "You will need to apply via paper forms instead. The form you need to fill in depends on whether the person left a will or not.</br></br>If the person left a will, fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-will-form'> form NIPF1 (opens in a new window)</a>.</br></br>If the person did not leave a will, fill in the probate application <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.nidirect.gov.uk/publications/apply-probate-if-there-no-will-form'> form NIPF2 (opens in a new window)</a>.",
+  },
     {
         "Page": "unable",
         "Template": "End",
