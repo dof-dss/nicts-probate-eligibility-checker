@@ -61,7 +61,7 @@
     "Page": "iht",
     "Template": "Question",
     "Header": "Has an Inheritance Tax (IHT) form been filled in?",
-    "Hint": "If the answer is no, you cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a>.",
+    "Hint": "If the answer is no, you cannot apply for Probate until you complete an IHT form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=' https://www.gov.uk/government/collections/inheritance-tax-forms'>link (opens in new tab)</a>.",
     "Validation": "Answer ‘Yes’ if you have completed the Inheritance Tax Forms.",
     "OnYes": "has-will",
     "OnNo": "no-iht"
@@ -70,7 +70,7 @@
     "Page": "no-iht",
     "Template": "End",
     "Header": "Sorry, you can't use the online service at this time",
-    "Hint": "You need to complete an inheritance tax form this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href='https://www.gov.uk/inheritance-tax'>link (opens in new tab)</a> before applying for Probate."
+    "Hint": "You need to complete an inheritance tax form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=' https://www.gov.uk/government/collections/inheritance-tax-forms'>link (opens in new tab)</a>"
   },
   {
     "Page": "has-will",
