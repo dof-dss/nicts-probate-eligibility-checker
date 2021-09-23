@@ -70,7 +70,7 @@
     "Page": "no-iht",
     "Template": "End",
     "Header": "Sorry, you can't use the online service at this time",
-    "Hint": "You need to complete an inheritance tax form from this link <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=' https://www.gov.uk/government/collections/inheritance-tax-forms'>link (opens in new tab)</a>"
+    "Hint": "You need to complete an inheritance tax form from this <a class='govuk-link' rel='noreferrer noopener' target='_blank' href=' https://www.gov.uk/government/collections/inheritance-tax-forms'>link (opens in new tab)</a>"
   },
   {
     "Page": "has-will",
